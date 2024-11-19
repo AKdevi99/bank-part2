@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const path = require('path');
 const User = require('./models/User');
 const financialInfo = require('./models/FinancialInfo');
+const { calculateCIBILScore } = require('./util/cibilscorecalculator');
 
 
 const multer = require('multer');
@@ -63,13 +64,15 @@ app.post('/login', async (req, res) => {
       if (financialInfo.loanHistory instanceof Map) {
         financialInfo.loanHistory = Object.fromEntries(financialInfo.loanHistory);
       }
-
+      const cibilscore = Math.floor(calculateCIBILScore(financialInfo));
       //send data to model and create creditscrore  and save in var
+      console.log("CIBIL Score (Good Financial Health):", cibilscore);
+
   
       res.render('dashboard.ejs', {
         username: user.user,
-        financialInfo
-        
+        financialInfo,
+        cibilscore
 
       });
     } catch (error) {
