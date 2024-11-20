@@ -3,83 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Modern Dashboard</title>
     <style>
-        /* Centering the container */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a2980, #26d0ce);
+            min-height: 100vh;
+            padding: 1.5rem;
+            color: #333;
+        }
+
         .container {
             display: flex;
             justify-content: space-between;
-            align-items: flex-start;
-            min-height: 100vh;
-            font-family: Arial, sans-serif;
-            padding: 20px;
+            gap: 1.5rem;
+            max-width: 1400px;
+            margin: 0 auto;
+            animation: fadeIn 0.8s ease-in;
+            height: calc(100vh - 3rem);
         }
 
-        /* Style for the content area */
-        .content {
-            text-align: left;
-            padding: 20px;
-            border: 1px solid #ccc;
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .logout-btn {
+            background: linear-gradient(135deg, #ff4b4b, #ff6b6b);
+            color: white;
+            border: none;
+            padding: 0.5rem 1.2rem;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 45%;
-            width: 100%;
+            cursor: pointer;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
         }
 
-        h2, h3 {
-            margin: 0 0 10px;
+        .logout-btn:hover {
+            background: linear-gradient(135deg, #ff6b6b, #ff8080);
+            transform: translateY(-2px);
+            color: white;
+            text-decoration: none;
         }
 
-        ul {
-            list-style-type: none;
-            padding-left: 0;
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
-        li {
-            margin-bottom: 15px;
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1.5rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            flex: 1;
+            max-width: 48%;
+            transform: translateY(0);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
         }
 
-        /* Styling for the loan offers */
-        .loan-offers {
-            margin-top: 20px;
+        .content:hover {
+            transform: translateY(-5px);
+        }
+
+        .financial-info-container {
+            overflow-y: auto;
+            flex-grow: 1;
+            padding-right: 0.5rem;
+        }
+
+        h2 {
+            color: #1a2980;
+            margin-bottom: 1rem;
+            font-size: 1.6rem;
+            border-bottom: 3px solid #26d0ce;
+            padding-bottom: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        h3 {
+            color: #1a2980;
+            margin: 1.2rem 0 0.8rem;
+            font-size: 1.3rem;
+        }
+
+        .financial-info p {
+            padding: 0.7rem;
+            margin: 0.4rem 0;
+            border-radius: 8px;
+            background: linear-gradient(135deg, rgba(26, 41, 128, 0.05), rgba(38, 208, 206, 0.05));
+            animation: slideIn 0.5s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(-20px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        .cibil-score {
+            font-size: 1.8rem;
+            text-align: center;
+            padding: 0.8rem;
+            margin: 1rem 0;
+            background: linear-gradient(135deg, #1a2980, #26d0ce);
+            color: white;
+            border-radius: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+
+        .loan-history li {
+            background: white;
+            padding: 0.8rem;
+            margin: 0.8rem 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            border-left: 4px solid #26d0ce;
+        }
+
+        .loan-offers-container {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding-right: 0.5rem;
+            scrollbar-width: thin;
+            scrollbar-color: #26d0ce #f0f0f0;
+        }
+
+        .loan-offers-container::-webkit-scrollbar,
+        .financial-info-container::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .loan-offers-container::-webkit-scrollbar-track,
+        .financial-info-container::-webkit-scrollbar-track {
+            background: #f0f0f0;
+            border-radius: 4px;
+        }
+
+        .loan-offers-container::-webkit-scrollbar-thumb,
+        .financial-info-container::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #1a2980, #26d0ce);
+            border-radius: 4px;
         }
 
         .loan-offer {
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            padding: 15px;
-            margin-bottom: 15px;
-            background-color: #f9f9f9;
+            background: white;
+            padding: 1.2rem;
+            margin: 0.8rem 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .loan-offer:hover {
+            transform: translateX(8px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
         }
 
         .loan-offer h4 {
-            margin: 0;
+            color: #1a2980;
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
         }
 
-        .loan-offer p {
-            margin: 5px 0;
-        }
-
-        /* Add some spacing between the columns */
-        .column {
-            flex: 1;
-            margin-right: 20px;
-        }
-
-        .column:last-child {
-            margin-right: 0;
-        }
-
-        /* Small screen styling */
         @media (max-width: 768px) {
             .container {
                 flex-direction: column;
-                align-items: center;
+                height: auto;
+                gap: 1rem;
             }
-
             .content {
                 max-width: 100%;
-                margin-bottom: 20px;
+                height: 500px;
+            }
+            .header-container {
+                flex-direction: column;
+                gap: 1rem;
+                align-items: flex-start;
+            }
+            .logout-btn {
+                align-self: flex-end;
             }
         }
     </style>
@@ -87,50 +210,75 @@
 <body>
     <div class="container">
         <!-- Column for user financial info -->
-        <div class="column content">
-            <h2>Welcome, <%= username %></h2>
+        <div class="content">
+            <div class="header-container">
+                <h2>Welcome, <%= username %></h2>
+                <a href="http://localhost:3000/login" class="logout-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                        <polyline points="16 17 21 12 16 7"></polyline>
+                        <line x1="21" y1="12" x2="9" y2="12"></line>
+                    </svg>
+                    Logout
+                </a>
+            </div>
+            
+            <div class="financial-info-container">
+                <div class="financial-info">
+                    <h3>Financial Information</h3>
+                    <p>Monthly Income: <%= financialInfo.MonthlyIncome %></p>
+                    <p>Monthly Expenditures: <%= financialInfo.MonthlyExpend %></p>
+                    <p>Loan Request: <%= financialInfo.LoanRequest %></p>
+                    <p>Outstanding Debt: <%= financialInfo.outstandingDebt %></p>
+                    <p>Total Assets: <%= financialInfo.totalAssets %></p>
+                    <p>Total Liabilities: <%= financialInfo.totalLiabilities %></p>
+                </div>
 
-            <h3>Financial Information</h3>
-            <p>Monthly Income: <%= financialInfo.MonthlyIncome %></p>
-            <p>Monthly Expenditures: <%= financialInfo.MonthlyExpend %></p>
-            <p>Loan Request: <%= financialInfo.LoanRequest %></p>
-            <p>Outstanding Debt: <%= financialInfo.outstandingDebt %></p>
-            <p>Total Assets: <%= financialInfo.totalAssets %></p>
-            <p>Total Liabilities: <%= financialInfo.totalLiabilities %></p>
-            <h3>CibilScore: <%= cibilscore %></h3>
+                <div class="cibil-score">
+                    CibilScore: <%= cibilscore %>
+                </div>
 
-            <h3>Loan History</h3>
-            <ul>
-                <% Object.keys(financialInfo.loanHistory).forEach(loanKey => { %>
-                    <li>
-                        <p>Loan Type: <%= financialInfo.loanHistory[loanKey].LoanType %></p>
-                        <p>Loan Amount: <%= financialInfo.loanHistory[loanKey].LoanAmount %></p>
-                        <p>Status: <%= financialInfo.loanHistory[loanKey].loanStatus %></p>
-                        <p>Start Date: <%= financialInfo.loanHistory[loanKey].startDate %></p>
-                        <p>End Date: <%= financialInfo.loanHistory[loanKey].endDate %></p>
-                        <p>Interest Rate: <%= financialInfo.loanHistory[loanKey].interestRate %>%</p>
-                    </li>
-                <% }) %>
-            </ul>
-
+                <h3>Loan History</h3>
+                <ul class="loan-history">
+                    <% Object.keys(financialInfo.loanHistory).forEach(loanKey => { %>
+                        <li>
+                            <p>Loan Type: <%= financialInfo.loanHistory[loanKey].LoanType %></p>
+                            <p>Loan Amount: <%= financialInfo.loanHistory[loanKey].LoanAmount %></p>
+                            <p>Status: <%= financialInfo.loanHistory[loanKey].loanStatus %></p>
+                            <p>Start Date: <%= financialInfo.loanHistory[loanKey].startDate %></p>
+                            <p>End Date: <%= financialInfo.loanHistory[loanKey].endDate %></p>
+                            <p>Interest Rate: <%= financialInfo.loanHistory[loanKey].interestRate %>%</p>
+                        </li>
+                    <% }) %>
+                </ul>
+            </div>
         </div>
 
         <!-- Column for loan offers -->
-        <div class="column content loan-offers">
-            <h3>Available Loan Offers</h3>
-            <% if (loanOffers.length > 0) { %>
-                <% loanOffers.forEach(offer => { %>
-                    <div class="loan-offer">
-                        <h4><%= offer.bankName %> - <%= offer.loan_type %></h4>
-                        <p>Interest Rate: <%= offer.interest_rate %>%</p>
-                        <p>Loan Amount Range: ₹<%= offer.min_loan_amount %> - ₹<%= offer.max_loan_amount %></p>
-                        <p>Term: <%= offer.term.min_years %> to <%= offer.term.max_years %> years</p>
-                    </div>
-                <% }) %>
-            <% } else { %>
-                <p>No loan offers available based on your financial profile.</p>
-            <% } %>
+        <div class="content">
+            <h2>Available Loan Offers</h2>
+            <div class="loan-offers-container">
+                <% if (loanOffers.length > 0) { %>
+                    <% loanOffers.forEach(offer => { %>
+                        <div class="loan-offer">
+                            <h4><%= offer.bankName %> - <%= offer.loan_type %></h4>
+                            <p>Interest Rate: <%= offer.interest_rate %>%</p>
+                            <p>Loan Amount Range: ₹<%= offer.min_loan_amount %> - ₹<%= offer.max_loan_amount %></p>
+                            <p>Term: <%= offer.term.min_years %> to <%= offer.term.max_years %> years</p>
+                        </div>
+                    <% }) %>
+                <% } else { %>
+                    <p>No loan offers available based on your financial profile.</p>
+                <% } %>
+            </div>
         </div>
     </div>
+
+    <script>
+        document.querySelector('.logout-btn').addEventListener('click', (e) => {
+            localStorage.clear();
+            sessionStorage.clear();
+        });
+    </script>
 </body>
 </html>
