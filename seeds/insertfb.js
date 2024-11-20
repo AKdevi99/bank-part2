@@ -1,8 +1,8 @@
 // insertdata.js
 
 const mongoose = require('mongoose');
-const FinancialInfo = require('./models/FinancialInfo'); // Adjust paths if needed
-const User = require('./models/User'); // Adjust paths if needed
+const FinancialInfo = require('../models/FinancialInfo'); // Adjust paths if needed
+const User = require('../models/User'); // Adjust paths if needed
 
 mongoose.connect('mongodb://localhost:27017/bank');
 

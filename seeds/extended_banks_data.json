@@ -1,0 +1,1962 @@
+[
+  {
+    "name": "RSTU Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 11.79,
+        "min_loan_amount": 485199,
+        "max_loan_amount": 823655,
+        "term": {
+          "min_years": 4,
+          "max_years": 23
+        },
+        "eligibility_criteria": {
+          "min_income": 42284,
+          "minCIBILscore": 455,
+          "maxCIBILscore": 783,
+          "max_debt_to_income_ratio": 0.25
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 11.85,
+        "min_loan_amount": 283610,
+        "max_loan_amount": 472549,
+        "term": {
+          "min_years": 3,
+          "max_years": 24
+        },
+        "eligibility_criteria": {
+          "min_income": 29416,
+          "minCIBILscore": 529,
+          "maxCIBILscore": 813,
+          "max_debt_to_income_ratio": 0.26
+        }
+      }
+    ]
+  },
+  {
+    "name": "DEF Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 13.2,
+        "min_loan_amount": 389434,
+        "max_loan_amount": 282490,
+        "term": {
+          "min_years": 2,
+          "max_years": 29
+        },
+        "eligibility_criteria": {
+          "min_income": 33655,
+          "minCIBILscore": 533,
+          "maxCIBILscore": 786,
+          "max_debt_to_income_ratio": 0.3
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 14.12,
+        "min_loan_amount": 403373,
+        "max_loan_amount": 330828,
+        "term": {
+          "min_years": 5,
+          "max_years": 20
+        },
+        "eligibility_criteria": {
+          "min_income": 22127,
+          "minCIBILscore": 585,
+          "maxCIBILscore": 705,
+          "max_debt_to_income_ratio": 0.41
+        }
+      }
+    ]
+  },
+  {
+    "name": "PQR Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 5.52,
+        "min_loan_amount": 80209,
+        "max_loan_amount": 387510,
+        "term": {
+          "min_years": 3,
+          "max_years": 9
+        },
+        "eligibility_criteria": {
+          "min_income": 56189,
+          "minCIBILscore": 591,
+          "maxCIBILscore": 790,
+          "max_debt_to_income_ratio": 0.41
+        }
+      },
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 9.88,
+        "min_loan_amount": 215474,
+        "max_loan_amount": 603668,
+        "term": {
+          "min_years": 4,
+          "max_years": 8
+        },
+        "eligibility_criteria": {
+          "min_income": 49207,
+          "minCIBILscore": 380,
+          "maxCIBILscore": 706,
+          "max_debt_to_income_ratio": 0.21
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 12.53,
+        "min_loan_amount": 251030,
+        "max_loan_amount": 305944,
+        "term": {
+          "min_years": 5,
+          "max_years": 6
+        },
+        "eligibility_criteria": {
+          "min_income": 63535,
+          "minCIBILscore": 515,
+          "maxCIBILscore": 804,
+          "max_debt_to_income_ratio": 0.4
+        }
+      },
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 5.96,
+        "min_loan_amount": 16065,
+        "max_loan_amount": 446288,
+        "term": {
+          "min_years": 2,
+          "max_years": 26
+        },
+        "eligibility_criteria": {
+          "min_income": 34134,
+          "minCIBILscore": 479,
+          "maxCIBILscore": 850,
+          "max_debt_to_income_ratio": 0.26
+        }
+      }
+    ]
+  },
+  {
+    "name": "UVW Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 6.73,
+        "min_loan_amount": 465958,
+        "max_loan_amount": 158571,
+        "term": {
+          "min_years": 3,
+          "max_years": 19
+        },
+        "eligibility_criteria": {
+          "min_income": 29192,
+          "minCIBILscore": 526,
+          "maxCIBILscore": 655,
+          "max_debt_to_income_ratio": 0.44
+        }
+      },
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 13.49,
+        "min_loan_amount": 148012,
+        "max_loan_amount": 816654,
+        "term": {
+          "min_years": 3,
+          "max_years": 21
+        },
+        "eligibility_criteria": {
+          "min_income": 66124,
+          "minCIBILscore": 451,
+          "maxCIBILscore": 723,
+          "max_debt_to_income_ratio": 0.25
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 13.29,
+        "min_loan_amount": 264159,
+        "max_loan_amount": 907528,
+        "term": {
+          "min_years": 2,
+          "max_years": 24
+        },
+        "eligibility_criteria": {
+          "min_income": 51287,
+          "minCIBILscore": 477,
+          "maxCIBILscore": 716,
+          "max_debt_to_income_ratio": 0.25
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 5.25,
+        "min_loan_amount": 12038,
+        "max_loan_amount": 885742,
+        "term": {
+          "min_years": 3,
+          "max_years": 27
+        },
+        "eligibility_criteria": {
+          "min_income": 29260,
+          "minCIBILscore": 537,
+          "maxCIBILscore": 670,
+          "max_debt_to_income_ratio": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "name": "ABC Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 5.94,
+        "min_loan_amount": 389340,
+        "max_loan_amount": 807515,
+        "term": {
+          "min_years": 4,
+          "max_years": 6
+        },
+        "eligibility_criteria": {
+          "min_income": 26900,
+          "minCIBILscore": 409,
+          "maxCIBILscore": 761,
+          "max_debt_to_income_ratio": 0.37
+        }
+      }
+    ]
+  },
+  {
+    "name": "PQR Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 9.99,
+        "min_loan_amount": 173013,
+        "max_loan_amount": 139896,
+        "term": {
+          "min_years": 2,
+          "max_years": 13
+        },
+        "eligibility_criteria": {
+          "min_income": 35230,
+          "minCIBILscore": 575,
+          "maxCIBILscore": 677,
+          "max_debt_to_income_ratio": 0.33
+        }
+      },
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 12.88,
+        "min_loan_amount": 242055,
+        "max_loan_amount": 890043,
+        "term": {
+          "min_years": 3,
+          "max_years": 10
+        },
+        "eligibility_criteria": {
+          "min_income": 34570,
+          "minCIBILscore": 507,
+          "maxCIBILscore": 725,
+          "max_debt_to_income_ratio": 0.38
+        }
+      }
+    ]
+  },
+  {
+    "name": "LMN Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 8.2,
+        "min_loan_amount": 227735,
+        "max_loan_amount": 167384,
+        "term": {
+          "min_years": 2,
+          "max_years": 19
+        },
+        "eligibility_criteria": {
+          "min_income": 40470,
+          "minCIBILscore": 312,
+          "maxCIBILscore": 729,
+          "max_debt_to_income_ratio": 0.48
+        }
+      },
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 9.59,
+        "min_loan_amount": 357328,
+        "max_loan_amount": 675509,
+        "term": {
+          "min_years": 4,
+          "max_years": 29
+        },
+        "eligibility_criteria": {
+          "min_income": 25810,
+          "minCIBILscore": 552,
+          "maxCIBILscore": 702,
+          "max_debt_to_income_ratio": 0.42
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 13.57,
+        "min_loan_amount": 186800,
+        "max_loan_amount": 179719,
+        "term": {
+          "min_years": 2,
+          "max_years": 26
+        },
+        "eligibility_criteria": {
+          "min_income": 25066,
+          "minCIBILscore": 330,
+          "maxCIBILscore": 831,
+          "max_debt_to_income_ratio": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "name": "TUV Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 11.86,
+        "min_loan_amount": 195743,
+        "max_loan_amount": 932062,
+        "term": {
+          "min_years": 5,
+          "max_years": 6
+        },
+        "eligibility_criteria": {
+          "min_income": 28376,
+          "minCIBILscore": 360,
+          "maxCIBILscore": 679,
+          "max_debt_to_income_ratio": 0.31
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 12.47,
+        "min_loan_amount": 217869,
+        "max_loan_amount": 632057,
+        "term": {
+          "min_years": 3,
+          "max_years": 16
+        },
+        "eligibility_criteria": {
+          "min_income": 40913,
+          "minCIBILscore": 503,
+          "maxCIBILscore": 706,
+          "max_debt_to_income_ratio": 0.35
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 7.9,
+        "min_loan_amount": 146273,
+        "max_loan_amount": 734234,
+        "term": {
+          "min_years": 4,
+          "max_years": 12
+        },
+        "eligibility_criteria": {
+          "min_income": 30828,
+          "minCIBILscore": 520,
+          "maxCIBILscore": 759,
+          "max_debt_to_income_ratio": 0.42
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 7.72,
+        "min_loan_amount": 229691,
+        "max_loan_amount": 376076,
+        "term": {
+          "min_years": 3,
+          "max_years": 9
+        },
+        "eligibility_criteria": {
+          "min_income": 34882,
+          "minCIBILscore": 475,
+          "maxCIBILscore": 763,
+          "max_debt_to_income_ratio": 0.38
+        }
+      }
+    ]
+  },
+  {
+    "name": "BFG Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 7.97,
+        "min_loan_amount": 81460,
+        "max_loan_amount": 735877,
+        "term": {
+          "min_years": 4,
+          "max_years": 20
+        },
+        "eligibility_criteria": {
+          "min_income": 38918,
+          "minCIBILscore": 345,
+          "maxCIBILscore": 803,
+          "max_debt_to_income_ratio": 0.35
+        }
+      }
+    ]
+  },
+  {
+    "name": "RST Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 9.12,
+        "min_loan_amount": 429806,
+        "max_loan_amount": 884161,
+        "term": {
+          "min_years": 2,
+          "max_years": 16
+        },
+        "eligibility_criteria": {
+          "min_income": 58458,
+          "minCIBILscore": 550,
+          "maxCIBILscore": 826,
+          "max_debt_to_income_ratio": 0.21
+        }
+      },
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 11.36,
+        "min_loan_amount": 53232,
+        "max_loan_amount": 318717,
+        "term": {
+          "min_years": 1,
+          "max_years": 20
+        },
+        "eligibility_criteria": {
+          "min_income": 38103,
+          "minCIBILscore": 445,
+          "maxCIBILscore": 765,
+          "max_debt_to_income_ratio": 0.37
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 6.39,
+        "min_loan_amount": 421219,
+        "max_loan_amount": 354062,
+        "term": {
+          "min_years": 3,
+          "max_years": 10
+        },
+        "eligibility_criteria": {
+          "min_income": 28863,
+          "minCIBILscore": 559,
+          "maxCIBILscore": 842,
+          "max_debt_to_income_ratio": 0.36
+        }
+      },
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 14.51,
+        "min_loan_amount": 414802,
+        "max_loan_amount": 166702,
+        "term": {
+          "min_years": 4,
+          "max_years": 18
+        },
+        "eligibility_criteria": {
+          "min_income": 42004,
+          "minCIBILscore": 398,
+          "maxCIBILscore": 691,
+          "max_debt_to_income_ratio": 0.22
+        }
+      }
+    ]
+  },
+  {
+    "name": "OPQ Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 8.41,
+        "min_loan_amount": 236750,
+        "max_loan_amount": 294722,
+        "term": {
+          "min_years": 5,
+          "max_years": 13
+        },
+        "eligibility_criteria": {
+          "min_income": 30556,
+          "minCIBILscore": 343,
+          "maxCIBILscore": 795,
+          "max_debt_to_income_ratio": 0.46
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 6.02,
+        "min_loan_amount": 374565,
+        "max_loan_amount": 634309,
+        "term": {
+          "min_years": 5,
+          "max_years": 7
+        },
+        "eligibility_criteria": {
+          "min_income": 63540,
+          "minCIBILscore": 545,
+          "maxCIBILscore": 794,
+          "max_debt_to_income_ratio": 0.22
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 10.09,
+        "min_loan_amount": 313245,
+        "max_loan_amount": 742988,
+        "term": {
+          "min_years": 4,
+          "max_years": 23
+        },
+        "eligibility_criteria": {
+          "min_income": 57026,
+          "minCIBILscore": 513,
+          "maxCIBILscore": 764,
+          "max_debt_to_income_ratio": 0.37
+        }
+      },
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 12.18,
+        "min_loan_amount": 229486,
+        "max_loan_amount": 447443,
+        "term": {
+          "min_years": 5,
+          "max_years": 24
+        },
+        "eligibility_criteria": {
+          "min_income": 64674,
+          "minCIBILscore": 477,
+          "maxCIBILscore": 772,
+          "max_debt_to_income_ratio": 0.25
+        }
+      }
+    ]
+  },
+  {
+    "name": "UVW Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 13.52,
+        "min_loan_amount": 211637,
+        "max_loan_amount": 945553,
+        "term": {
+          "min_years": 4,
+          "max_years": 26
+        },
+        "eligibility_criteria": {
+          "min_income": 40765,
+          "minCIBILscore": 389,
+          "maxCIBILscore": 841,
+          "max_debt_to_income_ratio": 0.28
+        }
+      }
+    ]
+  },
+  {
+    "name": "ZAB Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 5.57,
+        "min_loan_amount": 341182,
+        "max_loan_amount": 273687,
+        "term": {
+          "min_years": 3,
+          "max_years": 30
+        },
+        "eligibility_criteria": {
+          "min_income": 56825,
+          "minCIBILscore": 435,
+          "maxCIBILscore": 701,
+          "max_debt_to_income_ratio": 0.25
+        }
+      },
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 8.54,
+        "min_loan_amount": 439744,
+        "max_loan_amount": 755796,
+        "term": {
+          "min_years": 2,
+          "max_years": 27
+        },
+        "eligibility_criteria": {
+          "min_income": 55093,
+          "minCIBILscore": 396,
+          "maxCIBILscore": 782,
+          "max_debt_to_income_ratio": 0.24
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 8.72,
+        "min_loan_amount": 217426,
+        "max_loan_amount": 434715,
+        "term": {
+          "min_years": 4,
+          "max_years": 24
+        },
+        "eligibility_criteria": {
+          "min_income": 44204,
+          "minCIBILscore": 388,
+          "maxCIBILscore": 713,
+          "max_debt_to_income_ratio": 0.45
+        }
+      }
+    ]
+  },
+  {
+    "name": "ZAB Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 13.43,
+        "min_loan_amount": 305036,
+        "max_loan_amount": 322969,
+        "term": {
+          "min_years": 1,
+          "max_years": 11
+        },
+        "eligibility_criteria": {
+          "min_income": 31319,
+          "minCIBILscore": 545,
+          "maxCIBILscore": 733,
+          "max_debt_to_income_ratio": 0.35
+        }
+      },
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 14.79,
+        "min_loan_amount": 379313,
+        "max_loan_amount": 359857,
+        "term": {
+          "min_years": 3,
+          "max_years": 16
+        },
+        "eligibility_criteria": {
+          "min_income": 68748,
+          "minCIBILscore": 462,
+          "maxCIBILscore": 675,
+          "max_debt_to_income_ratio": 0.29
+        }
+      }
+    ]
+  },
+  {
+    "name": "TUV Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 11.42,
+        "min_loan_amount": 487085,
+        "max_loan_amount": 194314,
+        "term": {
+          "min_years": 3,
+          "max_years": 12
+        },
+        "eligibility_criteria": {
+          "min_income": 47374,
+          "minCIBILscore": 362,
+          "maxCIBILscore": 707,
+          "max_debt_to_income_ratio": 0.42
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 13.36,
+        "min_loan_amount": 254925,
+        "max_loan_amount": 234093,
+        "term": {
+          "min_years": 5,
+          "max_years": 13
+        },
+        "eligibility_criteria": {
+          "min_income": 38448,
+          "minCIBILscore": 523,
+          "maxCIBILscore": 754,
+          "max_debt_to_income_ratio": 0.41
+        }
+      },
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 5.99,
+        "min_loan_amount": 234173,
+        "max_loan_amount": 270728,
+        "term": {
+          "min_years": 2,
+          "max_years": 11
+        },
+        "eligibility_criteria": {
+          "min_income": 67161,
+          "minCIBILscore": 497,
+          "maxCIBILscore": 777,
+          "max_debt_to_income_ratio": 0.32
+        }
+      }
+    ]
+  },
+  {
+    "name": "HIK Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 7.99,
+        "min_loan_amount": 403665,
+        "max_loan_amount": 122749,
+        "term": {
+          "min_years": 3,
+          "max_years": 18
+        },
+        "eligibility_criteria": {
+          "min_income": 33226,
+          "minCIBILscore": 592,
+          "maxCIBILscore": 782,
+          "max_debt_to_income_ratio": 0.35
+        }
+      },
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 13.8,
+        "min_loan_amount": 156299,
+        "max_loan_amount": 878525,
+        "term": {
+          "min_years": 1,
+          "max_years": 24
+        },
+        "eligibility_criteria": {
+          "min_income": 68223,
+          "minCIBILscore": 535,
+          "maxCIBILscore": 791,
+          "max_debt_to_income_ratio": 0.26
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 9.08,
+        "min_loan_amount": 46056,
+        "max_loan_amount": 580196,
+        "term": {
+          "min_years": 4,
+          "max_years": 27
+        },
+        "eligibility_criteria": {
+          "min_income": 62996,
+          "minCIBILscore": 308,
+          "maxCIBILscore": 673,
+          "max_debt_to_income_ratio": 0.21
+        }
+      }
+    ]
+  },
+  {
+    "name": "EFG Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 10.44,
+        "min_loan_amount": 201147,
+        "max_loan_amount": 125886,
+        "term": {
+          "min_years": 2,
+          "max_years": 22
+        },
+        "eligibility_criteria": {
+          "min_income": 46467,
+          "minCIBILscore": 517,
+          "maxCIBILscore": 754,
+          "max_debt_to_income_ratio": 0.33
+        }
+      }
+    ]
+  },
+  {
+    "name": "CDE Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 9.41,
+        "min_loan_amount": 50638,
+        "max_loan_amount": 300437,
+        "term": {
+          "min_years": 5,
+          "max_years": 21
+        },
+        "eligibility_criteria": {
+          "min_income": 62494,
+          "minCIBILscore": 461,
+          "maxCIBILscore": 784,
+          "max_debt_to_income_ratio": 0.27
+        }
+      },
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 6.53,
+        "min_loan_amount": 107025,
+        "max_loan_amount": 663772,
+        "term": {
+          "min_years": 4,
+          "max_years": 14
+        },
+        "eligibility_criteria": {
+          "min_income": 44926,
+          "minCIBILscore": 453,
+          "maxCIBILscore": 828,
+          "max_debt_to_income_ratio": 0.31
+        }
+      }
+    ]
+  },
+  {
+    "name": "TUV Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 5.19,
+        "min_loan_amount": 446743,
+        "max_loan_amount": 467819,
+        "term": {
+          "min_years": 1,
+          "max_years": 8
+        },
+        "eligibility_criteria": {
+          "min_income": 63809,
+          "minCIBILscore": 592,
+          "maxCIBILscore": 707,
+          "max_debt_to_income_ratio": 0.32
+        }
+      }
+    ]
+  },
+  {
+    "name": "DEF Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 12.94,
+        "min_loan_amount": 462746,
+        "max_loan_amount": 510982,
+        "term": {
+          "min_years": 1,
+          "max_years": 13
+        },
+        "eligibility_criteria": {
+          "min_income": 53748,
+          "minCIBILscore": 582,
+          "maxCIBILscore": 676,
+          "max_debt_to_income_ratio": 0.28
+        }
+      }
+    ]
+  },
+  {
+    "name": "OPQ Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 13.8,
+        "min_loan_amount": 159179,
+        "max_loan_amount": 639446,
+        "term": {
+          "min_years": 1,
+          "max_years": 26
+        },
+        "eligibility_criteria": {
+          "min_income": 29435,
+          "minCIBILscore": 499,
+          "maxCIBILscore": 751,
+          "max_debt_to_income_ratio": 0.35
+        }
+      },
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 6.67,
+        "min_loan_amount": 461868,
+        "max_loan_amount": 907015,
+        "term": {
+          "min_years": 2,
+          "max_years": 22
+        },
+        "eligibility_criteria": {
+          "min_income": 61309,
+          "minCIBILscore": 480,
+          "maxCIBILscore": 756,
+          "max_debt_to_income_ratio": 0.38
+        }
+      },
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 6.7,
+        "min_loan_amount": 258311,
+        "max_loan_amount": 100108,
+        "term": {
+          "min_years": 1,
+          "max_years": 24
+        },
+        "eligibility_criteria": {
+          "min_income": 63295,
+          "minCIBILscore": 528,
+          "maxCIBILscore": 662,
+          "max_debt_to_income_ratio": 0.33
+        }
+      },
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 12.19,
+        "min_loan_amount": 314311,
+        "max_loan_amount": 287107,
+        "term": {
+          "min_years": 1,
+          "max_years": 19
+        },
+        "eligibility_criteria": {
+          "min_income": 23893,
+          "minCIBILscore": 474,
+          "maxCIBILscore": 778,
+          "max_debt_to_income_ratio": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "name": "EFG Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 10.46,
+        "min_loan_amount": 209379,
+        "max_loan_amount": 946049,
+        "term": {
+          "min_years": 5,
+          "max_years": 13
+        },
+        "eligibility_criteria": {
+          "min_income": 43310,
+          "minCIBILscore": 393,
+          "maxCIBILscore": 830,
+          "max_debt_to_income_ratio": 0.47
+        }
+      }
+    ]
+  },
+  {
+    "name": "XYZ Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 10.86,
+        "min_loan_amount": 262521,
+        "max_loan_amount": 658795,
+        "term": {
+          "min_years": 3,
+          "max_years": 21
+        },
+        "eligibility_criteria": {
+          "min_income": 40083,
+          "minCIBILscore": 533,
+          "maxCIBILscore": 685,
+          "max_debt_to_income_ratio": 0.35
+        }
+      },
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 14.29,
+        "min_loan_amount": 392804,
+        "max_loan_amount": 741945,
+        "term": {
+          "min_years": 5,
+          "max_years": 30
+        },
+        "eligibility_criteria": {
+          "min_income": 41573,
+          "minCIBILscore": 334,
+          "maxCIBILscore": 818,
+          "max_debt_to_income_ratio": 0.26
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 6.15,
+        "min_loan_amount": 123920,
+        "max_loan_amount": 385619,
+        "term": {
+          "min_years": 1,
+          "max_years": 20
+        },
+        "eligibility_criteria": {
+          "min_income": 47319,
+          "minCIBILscore": 410,
+          "maxCIBILscore": 665,
+          "max_debt_to_income_ratio": 0.34
+        }
+      }
+    ]
+  },
+  {
+    "name": "PQR Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 14.41,
+        "min_loan_amount": 323067,
+        "max_loan_amount": 210302,
+        "term": {
+          "min_years": 1,
+          "max_years": 8
+        },
+        "eligibility_criteria": {
+          "min_income": 46496,
+          "minCIBILscore": 351,
+          "maxCIBILscore": 783,
+          "max_debt_to_income_ratio": 0.35
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 11.66,
+        "min_loan_amount": 413171,
+        "max_loan_amount": 838384,
+        "term": {
+          "min_years": 5,
+          "max_years": 10
+        },
+        "eligibility_criteria": {
+          "min_income": 22762,
+          "minCIBILscore": 520,
+          "maxCIBILscore": 714,
+          "max_debt_to_income_ratio": 0.47
+        }
+      }
+    ]
+  },
+  {
+    "name": "XYZ Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 6.98,
+        "min_loan_amount": 431027,
+        "max_loan_amount": 849918,
+        "term": {
+          "min_years": 1,
+          "max_years": 12
+        },
+        "eligibility_criteria": {
+          "min_income": 44828,
+          "minCIBILscore": 496,
+          "maxCIBILscore": 844,
+          "max_debt_to_income_ratio": 0.41
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 7.32,
+        "min_loan_amount": 447426,
+        "max_loan_amount": 479338,
+        "term": {
+          "min_years": 5,
+          "max_years": 19
+        },
+        "eligibility_criteria": {
+          "min_income": 46290,
+          "minCIBILscore": 593,
+          "maxCIBILscore": 661,
+          "max_debt_to_income_ratio": 0.28
+        }
+      },
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 12.12,
+        "min_loan_amount": 433615,
+        "max_loan_amount": 572102,
+        "term": {
+          "min_years": 3,
+          "max_years": 9
+        },
+        "eligibility_criteria": {
+          "min_income": 58670,
+          "minCIBILscore": 411,
+          "maxCIBILscore": 673,
+          "max_debt_to_income_ratio": 0.37
+        }
+      },
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 14.9,
+        "min_loan_amount": 31166,
+        "max_loan_amount": 314618,
+        "term": {
+          "min_years": 3,
+          "max_years": 17
+        },
+        "eligibility_criteria": {
+          "min_income": 20062,
+          "minCIBILscore": 451,
+          "maxCIBILscore": 790,
+          "max_debt_to_income_ratio": 0.23
+        }
+      }
+    ]
+  },
+  {
+    "name": "XYZ Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 5.9,
+        "min_loan_amount": 127586,
+        "max_loan_amount": 618154,
+        "term": {
+          "min_years": 1,
+          "max_years": 6
+        },
+        "eligibility_criteria": {
+          "min_income": 23577,
+          "minCIBILscore": 317,
+          "maxCIBILscore": 718,
+          "max_debt_to_income_ratio": 0.42
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 8.37,
+        "min_loan_amount": 262152,
+        "max_loan_amount": 711638,
+        "term": {
+          "min_years": 1,
+          "max_years": 23
+        },
+        "eligibility_criteria": {
+          "min_income": 47170,
+          "minCIBILscore": 598,
+          "maxCIBILscore": 737,
+          "max_debt_to_income_ratio": 0.37
+        }
+      }
+    ]
+  },
+  {
+    "name": "JKL Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 14.04,
+        "min_loan_amount": 297488,
+        "max_loan_amount": 848445,
+        "term": {
+          "min_years": 2,
+          "max_years": 14
+        },
+        "eligibility_criteria": {
+          "min_income": 60518,
+          "minCIBILscore": 499,
+          "maxCIBILscore": 755,
+          "max_debt_to_income_ratio": 0.27
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 14.02,
+        "min_loan_amount": 24178,
+        "max_loan_amount": 580185,
+        "term": {
+          "min_years": 2,
+          "max_years": 19
+        },
+        "eligibility_criteria": {
+          "min_income": 26401,
+          "minCIBILscore": 427,
+          "maxCIBILscore": 778,
+          "max_debt_to_income_ratio": 0.37
+        }
+      },
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 6.58,
+        "min_loan_amount": 344704,
+        "max_loan_amount": 274297,
+        "term": {
+          "min_years": 5,
+          "max_years": 23
+        },
+        "eligibility_criteria": {
+          "min_income": 69840,
+          "minCIBILscore": 463,
+          "maxCIBILscore": 710,
+          "max_debt_to_income_ratio": 0.25
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 13.23,
+        "min_loan_amount": 193958,
+        "max_loan_amount": 998352,
+        "term": {
+          "min_years": 1,
+          "max_years": 17
+        },
+        "eligibility_criteria": {
+          "min_income": 28253,
+          "minCIBILscore": 564,
+          "maxCIBILscore": 752,
+          "max_debt_to_income_ratio": 0.43
+        }
+      }
+    ]
+  },
+  {
+    "name": "DEF Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 13.55,
+        "min_loan_amount": 230121,
+        "max_loan_amount": 197100,
+        "term": {
+          "min_years": 2,
+          "max_years": 21
+        },
+        "eligibility_criteria": {
+          "min_income": 25512,
+          "minCIBILscore": 471,
+          "maxCIBILscore": 654,
+          "max_debt_to_income_ratio": 0.37
+        }
+      },
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 13.99,
+        "min_loan_amount": 250657,
+        "max_loan_amount": 908995,
+        "term": {
+          "min_years": 2,
+          "max_years": 8
+        },
+        "eligibility_criteria": {
+          "min_income": 21965,
+          "minCIBILscore": 590,
+          "maxCIBILscore": 845,
+          "max_debt_to_income_ratio": 0.46
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 12.97,
+        "min_loan_amount": 378373,
+        "max_loan_amount": 960659,
+        "term": {
+          "min_years": 2,
+          "max_years": 12
+        },
+        "eligibility_criteria": {
+          "min_income": 53430,
+          "minCIBILscore": 541,
+          "maxCIBILscore": 730,
+          "max_debt_to_income_ratio": 0.25
+        }
+      }
+    ]
+  },
+  {
+    "name": "QRS Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 10.86,
+        "min_loan_amount": 112081,
+        "max_loan_amount": 830505,
+        "term": {
+          "min_years": 5,
+          "max_years": 8
+        },
+        "eligibility_criteria": {
+          "min_income": 36621,
+          "minCIBILscore": 351,
+          "maxCIBILscore": 765,
+          "max_debt_to_income_ratio": 0.41
+        }
+      },
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 7.14,
+        "min_loan_amount": 82482,
+        "max_loan_amount": 292464,
+        "term": {
+          "min_years": 3,
+          "max_years": 10
+        },
+        "eligibility_criteria": {
+          "min_income": 37147,
+          "minCIBILscore": 500,
+          "maxCIBILscore": 722,
+          "max_debt_to_income_ratio": 0.46
+        }
+      },
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 6.34,
+        "min_loan_amount": 182841,
+        "max_loan_amount": 216061,
+        "term": {
+          "min_years": 5,
+          "max_years": 29
+        },
+        "eligibility_criteria": {
+          "min_income": 23095,
+          "minCIBILscore": 384,
+          "maxCIBILscore": 778,
+          "max_debt_to_income_ratio": 0.44
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 11.78,
+        "min_loan_amount": 38601,
+        "max_loan_amount": 926276,
+        "term": {
+          "min_years": 4,
+          "max_years": 9
+        },
+        "eligibility_criteria": {
+          "min_income": 35298,
+          "minCIBILscore": 349,
+          "maxCIBILscore": 711,
+          "max_debt_to_income_ratio": 0.48
+        }
+      }
+    ]
+  },
+  {
+    "name": "XYZ Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 9.96,
+        "min_loan_amount": 458562,
+        "max_loan_amount": 131724,
+        "term": {
+          "min_years": 5,
+          "max_years": 25
+        },
+        "eligibility_criteria": {
+          "min_income": 61824,
+          "minCIBILscore": 586,
+          "maxCIBILscore": 841,
+          "max_debt_to_income_ratio": 0.34
+        }
+      },
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 11.48,
+        "min_loan_amount": 26503,
+        "max_loan_amount": 541676,
+        "term": {
+          "min_years": 2,
+          "max_years": 8
+        },
+        "eligibility_criteria": {
+          "min_income": 67613,
+          "minCIBILscore": 501,
+          "maxCIBILscore": 756,
+          "max_debt_to_income_ratio": 0.3
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 11.09,
+        "min_loan_amount": 82299,
+        "max_loan_amount": 957097,
+        "term": {
+          "min_years": 3,
+          "max_years": 25
+        },
+        "eligibility_criteria": {
+          "min_income": 33807,
+          "minCIBILscore": 300,
+          "maxCIBILscore": 677,
+          "max_debt_to_income_ratio": 0.29
+        }
+      }
+    ]
+  },
+  {
+    "name": "HIJ Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 8.97,
+        "min_loan_amount": 53269,
+        "max_loan_amount": 143800,
+        "term": {
+          "min_years": 2,
+          "max_years": 23
+        },
+        "eligibility_criteria": {
+          "min_income": 55236,
+          "minCIBILscore": 447,
+          "maxCIBILscore": 838,
+          "max_debt_to_income_ratio": 0.28
+        }
+      },
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 12.96,
+        "min_loan_amount": 440587,
+        "max_loan_amount": 847918,
+        "term": {
+          "min_years": 2,
+          "max_years": 15
+        },
+        "eligibility_criteria": {
+          "min_income": 26243,
+          "minCIBILscore": 505,
+          "maxCIBILscore": 779,
+          "max_debt_to_income_ratio": 0.21
+        }
+      },
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 9.9,
+        "min_loan_amount": 392857,
+        "max_loan_amount": 571111,
+        "term": {
+          "min_years": 5,
+          "max_years": 10
+        },
+        "eligibility_criteria": {
+          "min_income": 49672,
+          "minCIBILscore": 479,
+          "maxCIBILscore": 844,
+          "max_debt_to_income_ratio": 0.28
+        }
+      },
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 7.3,
+        "min_loan_amount": 421895,
+        "max_loan_amount": 133072,
+        "term": {
+          "min_years": 4,
+          "max_years": 14
+        },
+        "eligibility_criteria": {
+          "min_income": 54752,
+          "minCIBILscore": 335,
+          "maxCIBILscore": 719,
+          "max_debt_to_income_ratio": 0.34
+        }
+      }
+    ]
+  },
+  {
+    "name": "BFG Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 12.47,
+        "min_loan_amount": 396048,
+        "max_loan_amount": 590657,
+        "term": {
+          "min_years": 1,
+          "max_years": 6
+        },
+        "eligibility_criteria": {
+          "min_income": 35681,
+          "minCIBILscore": 543,
+          "maxCIBILscore": 650,
+          "max_debt_to_income_ratio": 0.33
+        }
+      },
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 7.23,
+        "min_loan_amount": 77496,
+        "max_loan_amount": 783421,
+        "term": {
+          "min_years": 3,
+          "max_years": 6
+        },
+        "eligibility_criteria": {
+          "min_income": 68761,
+          "minCIBILscore": 435,
+          "maxCIBILscore": 714,
+          "max_debt_to_income_ratio": 0.36
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 5.25,
+        "min_loan_amount": 79331,
+        "max_loan_amount": 941761,
+        "term": {
+          "min_years": 4,
+          "max_years": 25
+        },
+        "eligibility_criteria": {
+          "min_income": 50958,
+          "minCIBILscore": 500,
+          "maxCIBILscore": 760,
+          "max_debt_to_income_ratio": 0.36
+        }
+      }
+    ]
+  },
+  {
+    "name": "GHI Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 13.71,
+        "min_loan_amount": 363310,
+        "max_loan_amount": 724424,
+        "term": {
+          "min_years": 2,
+          "max_years": 6
+        },
+        "eligibility_criteria": {
+          "min_income": 47760,
+          "minCIBILscore": 381,
+          "maxCIBILscore": 814,
+          "max_debt_to_income_ratio": 0.36
+        }
+      },
+      {
+        "loan_type": "Car Loan",
+        "interest_rate": 9.43,
+        "min_loan_amount": 449187,
+        "max_loan_amount": 702344,
+        "term": {
+          "min_years": 2,
+          "max_years": 30
+        },
+        "eligibility_criteria": {
+          "min_income": 58361,
+          "minCIBILscore": 308,
+          "maxCIBILscore": 709,
+          "max_debt_to_income_ratio": 0.2
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 10.83,
+        "min_loan_amount": 126594,
+        "max_loan_amount": 376615,
+        "term": {
+          "min_years": 3,
+          "max_years": 26
+        },
+        "eligibility_criteria": {
+          "min_income": 68247,
+          "minCIBILscore": 499,
+          "maxCIBILscore": 722,
+          "max_debt_to_income_ratio": 0.39
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 13.75,
+        "min_loan_amount": 346186,
+        "max_loan_amount": 139286,
+        "term": {
+          "min_years": 2,
+          "max_years": 18
+        },
+        "eligibility_criteria": {
+          "min_income": 28617,
+          "minCIBILscore": 598,
+          "maxCIBILscore": 727,
+          "max_debt_to_income_ratio": 0.43
+        }
+      }
+    ]
+  },
+  {
+    "name": "KLM Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 7.53,
+        "min_loan_amount": 166599,
+        "max_loan_amount": 781743,
+        "term": {
+          "min_years": 5,
+          "max_years": 9
+        },
+        "eligibility_criteria": {
+          "min_income": 24966,
+          "minCIBILscore": 453,
+          "maxCIBILscore": 777,
+          "max_debt_to_income_ratio": 0.22
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 11.8,
+        "min_loan_amount": 119284,
+        "max_loan_amount": 148980,
+        "term": {
+          "min_years": 4,
+          "max_years": 26
+        },
+        "eligibility_criteria": {
+          "min_income": 41444,
+          "minCIBILscore": 444,
+          "maxCIBILscore": 661,
+          "max_debt_to_income_ratio": 0.42
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 7.29,
+        "min_loan_amount": 90826,
+        "max_loan_amount": 503790,
+        "term": {
+          "min_years": 1,
+          "max_years": 23
+        },
+        "eligibility_criteria": {
+          "min_income": 35352,
+          "minCIBILscore": 593,
+          "maxCIBILscore": 750,
+          "max_debt_to_income_ratio": 0.33
+        }
+      }
+    ]
+  },
+  {
+    "name": "WXY Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 10.3,
+        "min_loan_amount": 82642,
+        "max_loan_amount": 345194,
+        "term": {
+          "min_years": 3,
+          "max_years": 30
+        },
+        "eligibility_criteria": {
+          "min_income": 57596,
+          "minCIBILscore": 569,
+          "maxCIBILscore": 810,
+          "max_debt_to_income_ratio": 0.41
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 8.49,
+        "min_loan_amount": 73565,
+        "max_loan_amount": 983601,
+        "term": {
+          "min_years": 5,
+          "max_years": 8
+        },
+        "eligibility_criteria": {
+          "min_income": 55410,
+          "minCIBILscore": 463,
+          "maxCIBILscore": 738,
+          "max_debt_to_income_ratio": 0.39
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 8.12,
+        "min_loan_amount": 388685,
+        "max_loan_amount": 180078,
+        "term": {
+          "min_years": 5,
+          "max_years": 6
+        },
+        "eligibility_criteria": {
+          "min_income": 30875,
+          "minCIBILscore": 502,
+          "maxCIBILscore": 744,
+          "max_debt_to_income_ratio": 0.44
+        }
+      },
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 7.55,
+        "min_loan_amount": 330327,
+        "max_loan_amount": 702338,
+        "term": {
+          "min_years": 1,
+          "max_years": 30
+        },
+        "eligibility_criteria": {
+          "min_income": 24705,
+          "minCIBILscore": 592,
+          "maxCIBILscore": 773,
+          "max_debt_to_income_ratio": 0.48
+        }
+      }
+    ]
+  },
+  {
+    "name": "ZAB Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 12.56,
+        "min_loan_amount": 219029,
+        "max_loan_amount": 869013,
+        "term": {
+          "min_years": 3,
+          "max_years": 25
+        },
+        "eligibility_criteria": {
+          "min_income": 29784,
+          "minCIBILscore": 541,
+          "maxCIBILscore": 656,
+          "max_debt_to_income_ratio": 0.45
+        }
+      },
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 7.04,
+        "min_loan_amount": 265555,
+        "max_loan_amount": 870902,
+        "term": {
+          "min_years": 5,
+          "max_years": 16
+        },
+        "eligibility_criteria": {
+          "min_income": 49968,
+          "minCIBILscore": 403,
+          "maxCIBILscore": 799,
+          "max_debt_to_income_ratio": 0.41
+        }
+      },
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 6.25,
+        "min_loan_amount": 355236,
+        "max_loan_amount": 485853,
+        "term": {
+          "min_years": 1,
+          "max_years": 15
+        },
+        "eligibility_criteria": {
+          "min_income": 29375,
+          "minCIBILscore": 471,
+          "maxCIBILscore": 781,
+          "max_debt_to_income_ratio": 0.4
+        }
+      },
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 13.5,
+        "min_loan_amount": 491848,
+        "max_loan_amount": 662998,
+        "term": {
+          "min_years": 1,
+          "max_years": 30
+        },
+        "eligibility_criteria": {
+          "min_income": 37860,
+          "minCIBILscore": 351,
+          "maxCIBILscore": 707,
+          "max_debt_to_income_ratio": 0.42
+        }
+      }
+    ]
+  },
+  {
+    "name": "DEF Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 9.02,
+        "min_loan_amount": 374159,
+        "max_loan_amount": 507515,
+        "term": {
+          "min_years": 5,
+          "max_years": 26
+        },
+        "eligibility_criteria": {
+          "min_income": 58121,
+          "minCIBILscore": 351,
+          "maxCIBILscore": 847,
+          "max_debt_to_income_ratio": 0.47
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 11.04,
+        "min_loan_amount": 433136,
+        "max_loan_amount": 168008,
+        "term": {
+          "min_years": 3,
+          "max_years": 13
+        },
+        "eligibility_criteria": {
+          "min_income": 28283,
+          "minCIBILscore": 342,
+          "maxCIBILscore": 752,
+          "max_debt_to_income_ratio": 0.21
+        }
+      }
+    ]
+  },
+  {
+    "name": "BFG Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 11.4,
+        "min_loan_amount": 315946,
+        "max_loan_amount": 610686,
+        "term": {
+          "min_years": 3,
+          "max_years": 29
+        },
+        "eligibility_criteria": {
+          "min_income": 66150,
+          "minCIBILscore": 593,
+          "maxCIBILscore": 850,
+          "max_debt_to_income_ratio": 0.25
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 7.4,
+        "min_loan_amount": 159860,
+        "max_loan_amount": 228133,
+        "term": {
+          "min_years": 5,
+          "max_years": 16
+        },
+        "eligibility_criteria": {
+          "min_income": 40096,
+          "minCIBILscore": 514,
+          "maxCIBILscore": 725,
+          "max_debt_to_income_ratio": 0.37
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 9.77,
+        "min_loan_amount": 111528,
+        "max_loan_amount": 414274,
+        "term": {
+          "min_years": 5,
+          "max_years": 10
+        },
+        "eligibility_criteria": {
+          "min_income": 55588,
+          "minCIBILscore": 387,
+          "maxCIBILscore": 838,
+          "max_debt_to_income_ratio": 0.23
+        }
+      }
+    ]
+  },
+  {
+    "name": "HIJ Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Home Loan",
+        "interest_rate": 13.7,
+        "min_loan_amount": 222888,
+        "max_loan_amount": 829992,
+        "term": {
+          "min_years": 1,
+          "max_years": 28
+        },
+        "eligibility_criteria": {
+          "min_income": 22315,
+          "minCIBILscore": 517,
+          "maxCIBILscore": 838,
+          "max_debt_to_income_ratio": 0.24
+        }
+      },
+      {
+        "loan_type": "Business Loan",
+        "interest_rate": 13.13,
+        "min_loan_amount": 99473,
+        "max_loan_amount": 834035,
+        "term": {
+          "min_years": 1,
+          "max_years": 6
+        },
+        "eligibility_criteria": {
+          "min_income": 27528,
+          "minCIBILscore": 598,
+          "maxCIBILscore": 784,
+          "max_debt_to_income_ratio": 0.48
+        }
+      },
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 8.99,
+        "min_loan_amount": 415015,
+        "max_loan_amount": 472785,
+        "term": {
+          "min_years": 4,
+          "max_years": 25
+        },
+        "eligibility_criteria": {
+          "min_income": 50127,
+          "minCIBILscore": 365,
+          "maxCIBILscore": 786,
+          "max_debt_to_income_ratio": 0.48
+        }
+      }
+    ]
+  },
+  {
+    "name": "VWY Bank",
+    "loan_offers": [
+      {
+        "loan_type": "Personal Loan",
+        "interest_rate": 10.36,
+        "min_loan_amount": 49334,
+        "max_loan_amount": 818954,
+        "term": {
+          "min_years": 5,
+          "max_years": 7
+        },
+        "eligibility_criteria": {
+          "min_income": 41457,
+          "minCIBILscore": 436,
+          "maxCIBILscore": 783,
+          "max_debt_to_income_ratio": 0.37
+        }
+      },
+      {
+        "loan_type": "Education Loan",
+        "interest_rate": 13.82,
+        "min_loan_amount": 123106,
+        "max_loan_amount": 564679,
+        "term": {
+          "min_years": 2,
+          "max_years": 17
+        },
+        "eligibility_criteria": {
+          "min_income": 53577,
+          "minCIBILscore": 547,
+          "maxCIBILscore": 682,
+          "max_debt_to_income_ratio": 0.32
+        }
+      }
+    ]
+  }
+]

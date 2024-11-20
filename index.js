@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const path = require('path');
 const User = require('./models/User');
+const { getLoanOffers } = require('./util/loanOffers');
 const financialInfo = require('./models/FinancialInfo');
 const { calculateCIBILScore } = require('./util/cibilscorecalculator');
 
@@ -68,12 +69,16 @@ app.post('/login', async (req, res) => {
       //send data to model and create creditscrore  and save in var
       console.log("CIBIL Score (Good Financial Health):", cibilscore);
 
+
+       // Get loan offers based on the users financial profile
+      const loanOffers = await getLoanOffers(financialInfo,cibilscore);
+
   
       res.render('dashboard.ejs', {
         username: user.user,
         financialInfo,
-        cibilscore
-
+        cibilscore,
+        loanOffers  // Pass loan offers to the dashboard
       });
     } catch (error) {
       console.error('Error logging in:', error);
